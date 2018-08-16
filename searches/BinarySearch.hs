@@ -7,5 +7,4 @@ binarySearch value xs
     | otherwise = binarySearch value (take midIndex xs)     
         where midIndex = length xs `div` 2
               midElement = xs !! midIndex
-          
-          
+              
