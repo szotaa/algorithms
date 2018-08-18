@@ -1,3 +1,7 @@
+module SelectionSort (
+    selectionSort
+) where
+
 import Data.List
 
 selectionSort :: (Ord a) => [a] -> [a]

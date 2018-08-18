@@ -1,3 +1,7 @@
+module LinearSearch (
+    linearSearch
+) where
+
 linearSearch :: (Eq a) => a -> [a] -> Int
 
 linearSearch value [] = error "Element not found"

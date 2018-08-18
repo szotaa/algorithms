@@ -1,3 +1,7 @@
+module GreatestCommonDivisor (
+    gcd'
+) where
+
 gcd' :: Int -> Int -> Int
 
 gcd' x 0 = x
